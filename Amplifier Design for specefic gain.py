@@ -37,14 +37,14 @@ def cvtlog(z):
     return a
 
 
-s11 = 0.75
-s11angle = -120
-s22 = 0.6
-s22angle = -70
-s21 = 2.5
-s21angle = 80
-s12 = 0
-s12angle = 0
+s11 = float(input('Enter the R value for s11'))#0.75
+s11angle = float(input('Enter the angle for s11'))#-120
+s22 = float(input('Enter the R value for s22'))#0.6
+s22angle = float(input('Enter the angle or s22'))#-70
+s21 = float(input('Enter the R valye for s21'))#2.5
+s21angle = float(input('Enter the angle for s21'))#80
+s12 = float(input('Enter the R value or s12'))#0
+s12angle = float(input('Enter the angle for s12'))#0
 
 Gsmax = 3
 Gsmin = 2
