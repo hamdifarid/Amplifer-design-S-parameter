@@ -84,7 +84,7 @@ if s12==0:
 
 print('gs=',gs,'gL=',gl,'G0=',g0)
 print('gs=',cvtdb(gs),'DB')
-print('gL=',cvtdb(gs),'DB')
+print('gL=',cvtdb(gl),'DB')
 print('G0=',cvtdb(g0),'DB')
 print('maximum unilateral gain=',gtu,'db')
 print('Csmax=',calculate_polar(Csmax))
