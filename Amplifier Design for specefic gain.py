@@ -73,6 +73,10 @@ Rlmin = (((1-Glminval)**0.5)*(1-s22**2))/(1-(1-Glminval)*(s22**2))
 if s12!=0:
     k = (1+(deltamod**2)-(s11**2)-(s22**2))/(2*(cal_complex(s12,s12angle)*cal_complex(s21,s21angle)))          
     print(mod(k))
+     if mod(k)>1:
+        print('unconditoinally stable')
+     if mod(k)<1:
+        print('potentionally unstable')
     print(deltamod)
 if s12==0:
     print('As s12 is 0 Value of K is infinite and amplifier is unconditionally stable')
